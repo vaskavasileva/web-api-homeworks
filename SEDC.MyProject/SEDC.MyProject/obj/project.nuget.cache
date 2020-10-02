@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XKzjuUAn3xmFKP4TymR92ix1Xhu0z//x89piQJYNUhlbxpRUDr6qczJcCnbCUEr5zaTRSRaFqwq9ZMjchXF6GA==",
+  "dgSpecHash": "kQHDm6oZBiedGHXDB5KJYIFlCesOe53oHDxklQR/8/fwI3wIRry8TZOlGVadun3fdfRXgWNZD1d5lOiia5qc6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

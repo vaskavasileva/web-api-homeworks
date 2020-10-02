@@ -42,6 +42,7 @@ namespace SEDC.MyProject.Controllers
             return Ok();
         }
         [HttpDelete]
+        [Route("{id}")]
         public ActionResult DeleteUser(int id)
         {
             var userToDelete = StaticDb.AllUsers.SingleOrDefault(u => u.Id == id);

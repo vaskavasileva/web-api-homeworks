@@ -11815,11 +11815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
       "projectName": "SEDC.MyProject",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\SEDC.MyProject.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\web-api-homeworks\\web-api-homeworks\\SEDC.MyProject\\SEDC.MyProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
