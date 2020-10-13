@@ -1,0 +1,5 @@
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
