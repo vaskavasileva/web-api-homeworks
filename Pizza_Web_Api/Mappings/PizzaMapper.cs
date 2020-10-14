@@ -15,8 +15,7 @@ namespace Mappings
                 Id = model.Id,
                 Name = model.Name,
                 Price = model.Price,
-                Size = model.Size,
-                IngredientIds = model.IngredientIds
+                Size = model.Size
             };
         }
 
@@ -27,8 +26,7 @@ namespace Mappings
                 Id = pizza.Id,
                 Name = pizza.Name,
                 Price = pizza.Price,
-                Size = pizza.Size,
-                IngredientIds = pizza.IngredientIds
+                Size = pizza.Size
             };
         }
 

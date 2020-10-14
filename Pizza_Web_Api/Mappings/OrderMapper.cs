@@ -16,7 +16,6 @@ namespace Mappings
             {
                 Id = model.Id,
                 IsDelivered = model.IsDelivered,
-                PizzaIds = model.PizzaIds,
                 UserId = model.UserId
             };
         }
@@ -27,7 +26,6 @@ namespace Mappings
             {
                 Id = order.Id,
                 IsDelivered = order.IsDelivered,
-                PizzaIds = order.PizzaIds,
                 UserId = order.UserId
             };
         }

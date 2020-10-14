@@ -18,8 +18,7 @@ namespace Mappings
                 Address = model.Address,
                 Phone = model.Phone,
                 Username = model.Username,
-                Password = model.Password,
-                OrderIds = model.OrderIds
+                Password = model.Password
             };
         }
 
@@ -33,8 +32,7 @@ namespace Mappings
                 Address = user.Address,
                 Phone = user.Phone,
                 Username = user.Username,
-                Password = user.Password,
-                OrderIds = user.OrderIds
+                Password = user.Password
             };
         }
 

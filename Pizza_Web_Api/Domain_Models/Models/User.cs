@@ -23,8 +23,6 @@ namespace Domain_Models.Models
         [Required]
         [MinLength(8)]
         public string Password { get; set; }
-        public List<int> OrderIds { get; set; }
-        [ForeignKey("OrderIds")]
         public List<Order> Orders { get; set; } = new List<Order>();
     }
 }

@@ -15,5 +15,6 @@ namespace Domain_Models.Models
         public int Weight { get; set; }
         [Required]
         public int Price { get; set; }
+        public List<IngredientPizza> IngredientPizzas { get; set; }
     }
 }

@@ -7,12 +7,11 @@ namespace Domain_Models.Models
 {
     public class Order : BaseEntity
     {
-        public List<int> PizzaIds { get; set; }
-        [ForeignKey("PizzaIds")]
         public virtual List<Pizza> Pizzas { get; set; } = new List<Pizza>();
         public int UserId { get; set; }
         [ForeignKey("UserId")]
         public virtual User User { get; set; } 
         public bool IsDelivered { get; set; }
+        public List<PizzaOrder> PizzaOrders { get; set; }
     }
 }

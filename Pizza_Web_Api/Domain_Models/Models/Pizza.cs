@@ -9,19 +9,16 @@ namespace Domain_Models.Models
 {
     public class Pizza : BaseEntity
     {
-        public Pizza()
-        {
-            Price = this.CalculatePrice(this.Ingredients);
-        }
+        
         [Required]
         [MinLength(3)]
         public string Name { get; set; }
-        public List<int> IngredientIds { get; set; }
-        [ForeignKey("IngredientIds")]
-        public virtual List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
+        public List<IngredientPizza> IngredientPizzas { get; set; }
+        public List<Ingredient> Ingredients { get; set; }
         public PizzaSize Size { get; set; }
         [Required]
         public int Price { get; set; }
+        public List<PizzaOrder> PizzaOrders { get; set; }
 
         private int CalculatePrice(List<Ingredient> ingredients)
         {
