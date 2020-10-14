@@ -16,7 +16,9 @@ namespace Data.DatabaseContext
         public PizzaDbContext(DbContextOptions<PizzaDbContext> options)
             : base(options)
         {
+
         }
+
         public DbSet<Order> Orders { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Pizza> Pizzas { get; set; }

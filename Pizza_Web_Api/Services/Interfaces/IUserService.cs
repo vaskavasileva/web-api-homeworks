@@ -11,7 +11,7 @@ namespace Services.Interfaces
         UserModel GetUserById(int id);
         bool UpdateUser(UserModel user);
         bool CreateUser(UserModel user);
-        bool DeleteUser(UserModel user);
+        bool DeleteUser(int id);
         UserModel LogInUser(string username, string password);
     }
 }

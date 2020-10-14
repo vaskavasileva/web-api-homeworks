@@ -8,3 +8,14 @@ C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services
 C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp2.1\Services.genruntimeconfig.cache
 C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Data.dll
 C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Domain_Models.dll
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\DTO.dll
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\DTO.pdb
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Domain_Models.pdb
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Mappings.dll
+C:\Users\Dell\Desktop\web-api-homeworks\web-api-homeworks\Pizza_Web_Api\Services\bin\Debug\netcoreapp2.1\Mappings.pdb

@@ -1,9 +1,11 @@
 ﻿using Data.Interfaces;
 using Domain_Models.Enums;
 using Domain_Models.Models;
+using Mappings;
 using Services.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Services.ActualServices
@@ -17,32 +19,32 @@ namespace Services.ActualServices
         }
         public bool CreatePizza(PizzaModel pizza)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Create(PizzaMapper.PizzaModelToPizza(pizza));
         }
 
         public bool DeletePizza(int id)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Delete(id);
         }
 
         public List<PizzaModel> GetAllPizzas()
         {
-            throw new NotImplementedException();
+            return PizzaMapper.PizzasToPizzaModels(_pizzaRepo.GetAll());
         }
 
         public PizzaModel GetPizzaById(int id)
         {
-            throw new NotImplementedException();
+            return PizzaMapper.PizzaToPizzaModel(_pizzaRepo.GetById(id));
         }
 
         public List<PizzaModel> GetPizzasBySize(PizzaSize size)
         {
-            throw new NotImplementedException();
+            return PizzaMapper.PizzasToPizzaModels(_pizzaRepo.GetAll().Where(p => p.Size == size).ToList());
         }
 
         public bool UpdatePizza(PizzaModel pizza)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Update(PizzaMapper.PizzaModelToPizza(pizza));
         }
     }
 }

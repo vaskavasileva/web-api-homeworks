@@ -4373,12 +4373,27 @@
           "bin/placeholder/DTO.dll": {}
         }
       },
+      "Mappings/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Domain_Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mappings.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mappings.dll": {}
+        }
+      },
       "Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "DTO": "1.0.0",
           "Data": "1.0.0",
+          "Mappings": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "2.1.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.14",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
@@ -11871,6 +11886,11 @@
       "type": "project",
       "path": "../DTO/DTO.csproj",
       "msbuildProject": "../DTO/DTO.csproj"
+    },
+    "Mappings/1.0.0": {
+      "type": "project",
+      "path": "../Mappings/Mappings.csproj",
+      "msbuildProject": "../Mappings/Mappings.csproj"
     },
     "Services/1.0.0": {
       "type": "project",

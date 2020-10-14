@@ -1,8 +1,10 @@
 ﻿using Data.Interfaces;
 using Domain_Models.Models;
+using Mappings;
 using Services.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Services.ActualServices
@@ -16,32 +18,32 @@ namespace Services.ActualServices
         }
         public bool CreateUser(UserModel user)
         {
-            throw new NotImplementedException();
+            return _userRepo.Create(UserMapper.UserModelToUser(user));
         }
 
-        public bool DeleteUser(UserModel user)
+        public bool DeleteUser(int id)
         {
-            throw new NotImplementedException();
+            return _userRepo.Delete(id);
         }
 
         public List<UserModel> GetAllUsers()
         {
-            throw new NotImplementedException();
+            return UserMapper.UsersToUserModels(_userRepo.GetAll());
         }
 
         public UserModel GetUserById(int id)
         {
-            throw new NotImplementedException();
+            return UserMapper.UserToUserModel(_userRepo.GetById(id));
         }
 
         public UserModel LogInUser(string username, string password)
         {
-            throw new NotImplementedException();
+            return UserMapper.UserToUserModel(_userRepo.GetAll().SingleOrDefault(u => u.Username == username && u.Password == password));
         }
 
         public bool UpdateUser(UserModel user)
         {
-            throw new NotImplementedException();
+            return _userRepo.Update(UserMapper.UserModelToUser(user));
         }
     }
 }
